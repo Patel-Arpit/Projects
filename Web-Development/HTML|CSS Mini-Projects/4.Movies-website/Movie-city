@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="movies.css">
+</head>
+
+<body>
+    <div class="container header">
+        <img src="film.jfif" alt="" class="logo"><span>MOVIE-CITY</span>
+        <a href="#" class="header-btn"><i class="fa fa-user" style="font-size:20px"></i>&nbsp; Account</a>
+    </div>
+    <div class="container movie-details">
+        <div class="row">
+            <div class="col-md-6 left-box">
+                <h1>Avengers: End Game</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Voluptatum adipisci repellat rerum.</p>
+                <br>
+                <h3>Cast: </h3>
+                <img src="tony.jpg" alt="" title="tony" class="casting">
+                <img src="thor.jpg" alt="" title="thor" class="casting">
+                <img src="scarlett.jpg" alt="" title="scarlett" class="casting">
+                <img src="hulk.jpg" alt="" title="hulk" class="casting">
+                <img src="olsen.jpg" alt="" title="olsen" class="casting"> <br>
+                <a href="#"><i class="fa fa-play" style="font-size:20px"></i>&nbsp;Watch Now</a>
+                <a href="#" class="download"><i class="fa fa-arrow-down" style="font-size:20px"></i>&nbsp;Download</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="endgame.jpg" alt="" class="movie-img">
+            </div>
+        </div>      
+    </div>  
+    <div class="container series">
+        <h3>Popular Movies:</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="money.jpg" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img src="transformers.jpg" alt="" style="min-height: 145px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="kgf2.jpg" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img src="spyder-cut.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="stranger.jpg" alt="" style="width: 95px; max-height: 140px;">
+                    </div>
+                    <div class="col-6">
+                        <img src="adam.jpg" alt="" style="width: 95px; max-height: 140px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</html>
