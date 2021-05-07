@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-bar{
+    min-height: 3%;
+    background:linear-gradient(orange, white);
+}
+#container{
+    background:linear-gradient(orange, white);
+}
+.navbar-brand img{
+    width: 100px;
+    border-radius: 20px;
+    min-height: 30px;
+}
+.nav-item .nav-link{
+    color: black;
+  font-size: 17px;  
+}
+.nav-item .nav-link:hover{
+    color: white;  
+}
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#text{
+    text-align: center;
+
+}
+.info{
+    margin: 24% auto;
+}
+.info h1{
+    font-size: 30px;
+    font-family: cursive;
+}
+.info a{
+    width: 135px;
+    color: rgb(5, 5, 5);
+     text-decoration: none !important;
+     padding: 15px 25px;
+     margin: 5% 10px;
+     background-color:orange; 
+     display: inline-block;
+}
+.info .btn2{
+    border: 1px solid orange;
+    background: transparent !important;
+    color: #555 !important;
+    transition: 0.5s;
+} 
+.info .btn2:hover{
+    background: orange !important;
+    color: whitesmoke !important;
+}
+.footer-widget{
+    min-height: 15%;
+    background-image: linear-gradient(to right, #ff9800, #d3830a);
+    padding: 21px 0;
+    display: inline-flex;
+    color: white;
+    margin-top: 69px;
+}
+.footer-text{
+    padding-left: 5px;
+}
+.footer-widget .fa{
+    font-size: 25px;
+}
+.social-icons .fa{
+    font-size:18px; 
+    padding: 5px; 
+    cursor: pointer;
+}
